@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    background-color: #282a37;
+    padding: 22px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+/*estilizando o logo*/
+.logo h1 {
+    font-size: 35px;
+    color: #ff0000;
+}
+
+.logo .edu {
+    color: #21bef1;
+}
+
+.logo .de {
+    color: #fff;
+}
+
+/*estilizando o menu*/
+.container .nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.container .nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.container .nav li a:hover {
+    padding-bottom: 5px;
+    color: #ff0000;
+    border-bottom: #ff0000 2px solid;
+}
+
+/*estilizando primeira sessão*/
+main {
+    background-color: #aca9a5;
+}
+
+.text {
+    padding: 25px;
+    width: 100%;
+    max-width: calc(1280px - 420px);
+    height: 600px;
+    background-image: url("../imagem/fundo.png");
+    background-size: cover;
+}
+
+.text h1 {
+    margin-top: 90px;
+    font-size: 60px;
+    color: #21bef1;
+    font-weight: lighter;
+}
+
+.text .letter-red {
+    color: #ff0000;
+    font-weight: 900;
+}
+
+.text p {
+    color: #000;
+    margin-top: 10px;
+}
+
+/*formulario inicio*/
+.formulario {
+    height: 600px;
+    width: 100%;
+    max-width: 420px;
+    background-color: #21bef1;
+    padding: 50px 30px;
+}
+
+.formulario h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.formulario p {
+    text-align: center;
+}
+
+.form [type="text"] {
+    height: 40px;
+    padding: 5px;
+    width: 170px;
+    font-size: 18px;
+
+}
+
+.form select,
+[type="email"],
+[type="tel"],
+h3 {
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.form [type="text"],
+select,
+[type="email"],
+[type="tel"]:focus {
+    outline: none;
+}
+
+.btn {
+    margin-top: 25px;
+    width: 350px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fc4700;
+}
+
+#course {
+    background-color: #fff;
+
+}
+
+.cards {
+    color: #000;
+    padding-top: 150px;
+    padding: 20px;
+    background-color: #fff;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.container .card {
+    width: 300px;
+    text-align: center;
+    padding: 22px;
+    box-shadow: 10px 10px 30px;
+    border-radius: 10px;
+}
+
+.container .card h3 {
+    width: 250px;
+
+}
+
+/*estilizando a sessão sobre*/
+.imag-prof {
+    margin: 50px auto 50px auto;
+    padding: 50px;
+}
+
+.imag-prof img {
+    width: 650px;
+    padding: 10px;
+}
+
+.container .sobre {
+    width: 500px;
+    height: 400px;
+
+}
+
+.container .sobre h2 {
+    color: #2158f1;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container .sobre p {
+    color: #000;
+    margin-top: 10px;
+}
+
+/*estilizando sessão depoimento*/
+#feed {
+    padding: 50px;
+    background-color: #fff;
+
+}
+
+#feed h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 35px;
+    color: #21bef1;
+    text-transform: uppercase;
+}
+
+.container .depoimento {
+    color: #282a37;
+    width: 100%;
+    max-width: calc(1100px / 4);
+}
+
+.container .depoimento img {
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px;
+    border: #ff0000 2px solid;
+
+}
+
+.container .depoimento span {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+/*estilizando o footer*/
+footer {
+    background-color: #000;
+    padding: 35px;
+}
+
+.container .social-media {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container .social-media a {
+    font-size: 30px;
+    color: #fff;
+}
+
+.contato .logo a {
+    text-decoration: none;
+}
